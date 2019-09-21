@@ -171,6 +171,7 @@ public class RegisterService {
 			if(!isExist) {
 				resultMap.put("responseCode", "01");
 				resultMap.put("responseMessage", "Airline data doesnt exist");
+				return resultMap;
 			}
 
 			
